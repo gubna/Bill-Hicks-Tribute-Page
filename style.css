@@ -9,29 +9,10 @@ html body {
 }
 
 .tribute {
-    grid-area: main;
-    font-size: 2em;
-    padding: 1em;
-    color:#f1e140;
-    font-family: 'Staatliches', cursive;
-}
-
-.title {
-    grid-area: title;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    font-size: 8em;
-    color: #f1e140;
-}
-
-.img-div {
-   width: 100%;
-   text-align: center;
-
-}
-
-.iframe {
-    padding: 2rem;
+    font-size: 2.3rem;
+    padding: 1rem;
+    color:#000000;
+    font-family: 'Acme', sans-serif;
 }
 
 .link {
@@ -40,3 +21,13 @@ html body {
     font-size: 2em;
     font-family: 'Anton', sans-serif;
 }
+
+.bill {
+    text-align: center;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
